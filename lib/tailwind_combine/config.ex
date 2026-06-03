@@ -1244,10 +1244,6 @@ defmodule TailwindCombine.Config do
        [
          {"divide", ~w(solid dashed dotted double none)}
        ]},
-      {"divide-style",
-       [
-         {"divide", ~w(solid dashed dotted double none)}
-       ]},
       {"outline-width",
        [
          {"outline", [{Validator, :integer?}, {Validator, :arbitrary_length?}]}
